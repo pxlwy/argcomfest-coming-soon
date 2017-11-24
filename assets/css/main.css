@@ -654,9 +654,14 @@
 				color: #ff2361;
 			}
 
-				form .message.failure:before {
-					content: '\f119';
-				}
+      form .message.failure:before {
+        content: '\f071';
+      }
+
+      form .message.working:before {
+        content: '\f110';
+      }
+
 
 	label {
 		color: #fff;
